@@ -30,4 +30,4 @@ if utmeScore >= 180:
                 else: print( 'Rejected: You have exceeded the maximum number of trials')
             else: print( 'Rejected: Your Age is not eligible for admission' )
     else: print( 'Rejected: You must have an O-level with at least 5 credits')
-else: print( 'Rejected: Your JAMB score is too low are not eligible for admission' )
+else: print( 'Rejected: Your JAMB score is too low are not eligible for admission' ) 
