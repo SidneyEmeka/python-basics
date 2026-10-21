@@ -1,0 +1,18 @@
+#bubble sort
+
+theList = [4,3,8,2]
+
+def sort(nums):
+    l = len(nums)
+
+    for a in range(l):
+        for b in range(0,l-a-1):
+            if nums[b] > nums[b + 1]:
+                nums[b], nums[b + 1] = nums[b + 1], nums[b]
+    return nums
+
+
+sort(theList)
+
+print(theList)
+
