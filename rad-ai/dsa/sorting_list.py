@@ -1,6 +1,6 @@
 #bubble sort
 
-theList = [4,3,8,2]
+theList = [5,2,4,1,3,5,1]
 
 def sort(nums):
     l = len(nums)
